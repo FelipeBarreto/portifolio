@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
     <title>Hello World</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
 
   <body>
-    Jacobino
+    <label for="nome">Nome:</label>
+    <input id="nome" type="text" />
+    <button onclick="escreverNome(document.getElementById('nome').value)">
+      Escrever Nome
+    </button>
+    <p id="nome-container"></p>
+
+    <script src="./main.js"></script>
   </body>
 </html>
