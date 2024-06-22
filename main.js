@@ -34,3 +34,5 @@ function limpar() {
 function incrementarContadores() {
   j = j + 1;
 }
+
+escreverNome("Tirion Brujah");
